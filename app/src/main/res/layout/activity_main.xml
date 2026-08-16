@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnInterstitial"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="INTERSTITIAL"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_blue_gradient"
+        android:layout_marginBottom="12dp"
+        android:stateListAnimator="@null"
+        android:elevation="6dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRewarded"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="REWARDED"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_red_gradient"
+        android:stateListAnimator="@null"
+        android:elevation="6dp"/>
+
+</LinearLayout>
