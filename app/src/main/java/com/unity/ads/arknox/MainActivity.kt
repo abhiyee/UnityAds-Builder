@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private val GAME_ID = "800274755"
     private val INTERSTITIAL_AD_UNIT = "Interstitial_Android"
     private val REWARDED_AD_UNIT     = "Rewarded_Android"
-    private val TEST_MODE = false
+    private val TEST_MODE = true
     private var isInterstitialLoaded = false
     private var isRewardedLoaded     = false
 
