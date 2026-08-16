@@ -15,7 +15,7 @@ import com.unity3d.ads.UnityAds.UnityAdsShowError
 
 class MainActivity : AppCompatActivity() {
 
-    private val GAME_ID = "6041916"
+    private val GAME_ID = "800274755"
     private val INTERSTITIAL_AD_UNIT = "Interstitial_Android"
     private val REWARDED_AD_UNIT     = "Rewarded_Android"
     private val TEST_MODE = true
